@@ -1,5 +1,6 @@
 #include <string.h>
 #include <iostream>
+#include <vector>
 
 
 
@@ -11,15 +12,15 @@ int ArrayFunction(int intArray[], const int arraySize)
     
     for (int i = 0; i < arraySize; i++)
     {
+        //Print the array elements in the console without a comma at the end
         std::cout << intArray[i];
-        if (i < arraySize - 1) 
+        if (i < arraySize -1)
         {
-            std::cout << ", ";
-            
+            std::cout << " ,";
         }
-      
-
+   
     }
+   
     return 0;
 }
 
@@ -28,7 +29,7 @@ int main()
 {
    
  
-    const int arraySize = 15;
+    const int arraySize = 10;
     int intArray[arraySize] = { 3, 1, 4, 1, 5, 9, 2, 6, 5, 3};
 
 
@@ -38,7 +39,7 @@ int main()
 
    
 
-
+    
 
 
 /*
@@ -103,13 +104,4 @@ int main()
 }
 
 
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
 
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
