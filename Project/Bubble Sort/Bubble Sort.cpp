@@ -9,7 +9,7 @@ void print_array(int array[], int n)
     for (int i = 0; i < n; ++i)
     {
         std::cout << array[i] << ",\t";
-        if (i % 10 == 9) std::cout << std::endl;
+        if (i % 2 == 1) std::cout << std::endl;
     }
     std::cout << std::endl;
     std::cout << std::endl;
@@ -22,7 +22,7 @@ void swap(int& first, int& second)
     second = temp;
 }
 
-int BubbleSort(int array[], int toSort)
+void BubbleSort(int array[], int toSort)
 {
 
     //exit for single element or invalid indices
@@ -35,15 +35,17 @@ int BubbleSort(int array[], int toSort)
     while (!sorted)
     {
         sorted = true;
-    }
-    for (int i = 0; i < toSort - i; ++i) 
-    {
-        if (array[i] > array[i + 1])
+
+        for (int i = 0; i < toSort - 1; ++i)
         {
-            swap(array[i], array[i + 1]);
-          sorted = false;
+            if (array[i] > array[i + 1])
+            {
+                swap(array[i], array[i + 1]);
+                sorted = false;
+            }
         }
     }
+   
 }
 
 int main()
