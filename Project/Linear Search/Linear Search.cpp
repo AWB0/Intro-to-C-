@@ -8,7 +8,7 @@
 
 
 
-int Function(int numberToFind)
+int LinearSearch(int numberToFind)
 {
 
 
