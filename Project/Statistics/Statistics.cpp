@@ -29,7 +29,7 @@ int Shoot(int hitCount, int shotCount)
 	}
 	else
 	{
-		int percentage = hitCount * 100 / shotCount;
+		float percentage = hitCount * 100 / shotCount;
 
 
 		std::cout << "\n";
@@ -45,8 +45,8 @@ int Shoot(int hitCount, int shotCount)
 }
 int main()
 {
-	int hitCount = 10;
-	int shotCount = 20;
+	int hitCount = 1;
+	int shotCount = 103;
 	
 
 	Shoot(hitCount, shotCount);
