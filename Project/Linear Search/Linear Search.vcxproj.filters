@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Switch.cpp">
+    <ClCompile Include="Linear Search.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
