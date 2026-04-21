@@ -1,3 +1,4 @@
 ﻿  Bubble Sort.cpp
-C:\Users\theaw\OneDrive\Documents\GitHub\Intro to C++\Intro to C++\Project\Bubble Sort\Bubble Sort.cpp(65,17): warning C4002: too many arguments for function-like macro invocation 'assert'
+C:\Users\theaw\OneDrive\Documents\GitHub\Intro to C++\Intro to C++\Project\Bubble Sort\Bubble Sort.cpp(111,23): warning C4002: too many arguments for function-like macro invocation 'assert'
+C:\Users\theaw\OneDrive\Documents\GitHub\Intro to C++\Intro to C++\Project\Bubble Sort\Bubble Sort.cpp(64,1): warning C4715: 'BinarySearch': not all control paths return a value
   Bubble Sort.vcxproj -> C:\Users\theaw\OneDrive\Documents\GitHub\Intro to C++\Intro to C++\Project\x64\Debug\Bubble Sort.exe

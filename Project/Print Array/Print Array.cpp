@@ -5,7 +5,7 @@
 
 
 
-int ArrayFunction(int intArray[], const int arraySize)
+const int ArrayFunction(int intArray[], const int arraySize) 
 {
 
     
