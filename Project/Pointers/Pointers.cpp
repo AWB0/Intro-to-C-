@@ -3,11 +3,13 @@
 #include <iostream>
 
 
-int Function()
+void Pointer(int* a, int* b)
 {
-
-
-
+	int temp;
+	temp = *a;
+	*a = *b;
+	*b = temp;
+	
 
 
 }

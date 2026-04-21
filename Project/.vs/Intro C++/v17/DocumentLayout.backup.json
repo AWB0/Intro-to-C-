@@ -7,10 +7,6 @@
       "RelativeMoniker": "D:0:0:{689BCF22-EF45-401D-8987-EAD22BC37BE1}|Pointers\\Pointers.vcxproj|solutionrelative:Pointers\\Pointers.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{731B6673-498F-468E-9FCE-CB9A856A2E48}|Bubble Sort\\Bubble Sort.vcxproj|C:\\Users\\theaw\\OneDrive\\Documents\\GitHub\\Intro to C\u002B\u002B\\Intro to C\u002B\u002B\\Project\\Bubble Sort\\Bubble Sort.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{731B6673-498F-468E-9FCE-CB9A856A2E48}|Bubble Sort\\Bubble Sort.vcxproj|solutionrelative:Bubble Sort\\Bubble Sort.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{55415BEF-D07B-4E54-93CE-8DAD5DF9378D}|Mob Battle\\Mob Battle.vcxproj|C:\\Users\\theaw\\OneDrive\\Documents\\GitHub\\Intro to C\u002B\u002B\\Intro to C\u002B\u002B\\Project\\Mob Battle\\Mob Battle.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{55415BEF-D07B-4E54-93CE-8DAD5DF9378D}|Mob Battle\\Mob Battle.vcxproj|solutionrelative:Mob Battle\\Mob Battle.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -25,6 +21,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{498E0D01-A5C8-4D5E-9FD5-7EF67FCF2189}|Binary Search\\Binary Search.vcxproj|C:\\Users\\theaw\\OneDrive\\Documents\\GitHub\\Intro to C\u002B\u002B\\Intro to C\u002B\u002B\\Project\\Binary Search\\Binary Search.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{498E0D01-A5C8-4D5E-9FD5-7EF67FCF2189}|Binary Search\\Binary Search.vcxproj|solutionrelative:Binary Search\\Binary Search.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{731B6673-498F-468E-9FCE-CB9A856A2E48}|Bubble Sort\\Bubble Sort.vcxproj|C:\\Users\\theaw\\OneDrive\\Documents\\GitHub\\Intro to C\u002B\u002B\\Intro to C\u002B\u002B\\Project\\Bubble Sort\\Bubble Sort.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{731B6673-498F-468E-9FCE-CB9A856A2E48}|Bubble Sort\\Bubble Sort.vcxproj|solutionrelative:Bubble Sort\\Bubble Sort.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A01F2D86-321C-439C-BA91-8721FA0F258E}|Print Array\\Print Array.vcxproj|C:\\Users\\theaw\\OneDrive\\Documents\\GitHub\\Intro to C\u002B\u002B\\Intro to C\u002B\u002B\\Project\\Print Array\\Print Array.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -42,7 +42,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Mob Battle.cpp",
               "DocumentMoniker": "C:\\Users\\theaw\\OneDrive\\Documents\\GitHub\\Intro to C\u002B\u002B\\Intro to C\u002B\u002B\\Project\\Mob Battle\\Mob Battle.cpp",
               "RelativeDocumentMoniker": "Mob Battle\\Mob Battle.cpp",
@@ -50,11 +50,12 @@
               "RelativeToolTip": "Mob Battle\\Mob Battle.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-04-20T10:18:47.498Z"
+              "WhenOpened": "2026-04-20T10:18:47.498Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Minimum Element.cpp",
               "DocumentMoniker": "C:\\Users\\theaw\\OneDrive\\Documents\\GitHub\\Intro to C\u002B\u002B\\Intro to C\u002B\u002B\\Project\\Minimum Element\\Minimum Element.cpp",
               "RelativeDocumentMoniker": "Minimum Element\\Minimum Element.cpp",
@@ -62,11 +63,12 @@
               "RelativeToolTip": "Minimum Element\\Minimum Element.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-04-20T10:18:44.644Z"
+              "WhenOpened": "2026-04-20T10:18:44.644Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Linear Search.cpp",
               "DocumentMoniker": "C:\\Users\\theaw\\OneDrive\\Documents\\GitHub\\Intro to C\u002B\u002B\\Intro to C\u002B\u002B\\Project\\Linear Search\\Linear Search.cpp",
               "RelativeDocumentMoniker": "Linear Search\\Linear Search.cpp",
@@ -74,7 +76,8 @@
               "RelativeToolTip": "Linear Search\\Linear Search.cpp",
               "ViewState": "AgIAAAYAAAAAAAAAAAAgwBUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-04-20T10:12:36.922Z"
+              "WhenOpened": "2026-04-20T10:12:36.922Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -86,11 +89,12 @@
               "RelativeToolTip": "Print Array\\Print Array.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-04-20T10:12:07.626Z"
+              "WhenOpened": "2026-04-20T10:12:07.626Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "Binary Search.cpp",
               "DocumentMoniker": "C:\\Users\\theaw\\OneDrive\\Documents\\GitHub\\Intro to C\u002B\u002B\\Intro to C\u002B\u002B\\Project\\Binary Search\\Binary Search.cpp",
               "RelativeDocumentMoniker": "Binary Search\\Binary Search.cpp",
@@ -98,7 +102,8 @@
               "RelativeToolTip": "Binary Search\\Binary Search.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-04-20T10:10:22.547Z"
+              "WhenOpened": "2026-04-20T10:10:22.547Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -108,14 +113,14 @@
               "RelativeDocumentMoniker": "Pointers\\Pointers.cpp",
               "ToolTip": "C:\\Users\\theaw\\OneDrive\\Documents\\GitHub\\Intro to C\u002B\u002B\\Intro to C\u002B\u002B\\Project\\Pointers\\Pointers.cpp",
               "RelativeToolTip": "Pointers\\Pointers.cpp",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAALAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-04-20T10:09:19.71Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Bubble Sort.cpp",
               "DocumentMoniker": "C:\\Users\\theaw\\OneDrive\\Documents\\GitHub\\Intro to C\u002B\u002B\\Intro to C\u002B\u002B\\Project\\Bubble Sort\\Bubble Sort.cpp",
               "RelativeDocumentMoniker": "Bubble Sort\\Bubble Sort.cpp",
