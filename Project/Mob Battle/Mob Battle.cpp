@@ -2,10 +2,20 @@
 #include <string.h>
 #include <iostream>
 
-
-int Function()
+struct Mob
 {
+	int health;
 
+	int damageRating;
+
+	int attackSkill;
+
+};
+int MobBattle()
+{
+	Mob Delph{ 25, 15, 1 };
+
+	Mob Vessel = { 100, 20, 1 };
 
 
 
