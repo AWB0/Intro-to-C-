@@ -7,10 +7,7 @@
 int Shoot(int hitCount, int shotCount) 
 {
 
-	//How many shots are fired
-	//How many shots hit
-
-	//based on how many shots are fired compared to hits is accuracy
+	
 	for (int i = 0; i < shotCount; i++) 
 	{
 		if (i < hitCount)
@@ -41,16 +38,5 @@ int Shoot(int hitCount, int shotCount)
 	
 	
 	return 0;
-
-}
-int main()
-{
-	int hitCount = 1;
-	int shotCount = 103;
-	
-
-	Shoot(hitCount, shotCount);
-
-
 
 }

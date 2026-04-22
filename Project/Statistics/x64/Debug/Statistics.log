@@ -1,0 +1,4 @@
+﻿  Statistics.cpp
+C:\Users\theaw\OneDrive\Documents\GitHub\Intro to C++\Intro to C++\Project\Statistics\Statistics.cpp(20,31): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\theaw\OneDrive\Documents\GitHub\Intro to C++\Intro to C++\Project\Statistics\Statistics.cpp(28,9): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+  Statistics.vcxproj -> C:\Users\theaw\OneDrive\Documents\GitHub\Intro to C++\Intro to C++\Project\x64\Debug\Statistics.exe
