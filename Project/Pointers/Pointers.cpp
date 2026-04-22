@@ -2,14 +2,19 @@
 #include <string.h>
 #include <iostream>
 
-
-void Pointer(int* a, int* b)
+//swapping using pointers
+void Pointer(int firstValue, int secondValue)
 {
-	int temp;
-	temp = *a;
-	*a = *b;
-	*b = temp;
+	//define the pointer and to a 
+	//int temp = a;
+	// a = b;
+	// b = temp;
+
+	int *pointer = &firstValue;
 	
+
+
+
 
 
 }
