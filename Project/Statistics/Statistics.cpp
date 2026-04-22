@@ -4,8 +4,9 @@
 #include <cassert>
 
 
-int Shoot(int hitCount, int shotCount)
+int StatisticShoot(int hitCount, int shotCount)
 {
+	//initialise the percentage value to be returned later
 	float percentage = 0;
 
 	//if we don't shoot accuracy does not exist
@@ -18,25 +19,23 @@ int Shoot(int hitCount, int shotCount)
 	else
 	{
 		percentage = hitCount * 100 / shotCount;
-
-
 	}
 
-
-	assert(shotCount > hitCount);
+	//ensure the hitcount is not greater than shotcount
+	assert(shotCount >= hitCount);
 
 	return percentage;
 
 }
 int main()
 {
-	int hitCount = 10;
-	int shotCount = 103;
 
-	std::cout << Shoot(hitCount, shotCount) << "\n";
-
-
-
+   //test Function with asserts
+	assert(StatisticShoot(3, 4) == 75);
+	assert(StatisticShoot(1, 2) == 50);
+	assert(StatisticShoot(13, 13) == 100);
+	assert(StatisticShoot(21, 173) == 12);
+	assert(StatisticShoot(0, 0) == 0);
 
 }
 
