@@ -41,3 +41,16 @@ Player applyEffect(PotionType potionType, Player player)
 	return player;
 
 }
+int main()
+{
+
+	PotionType potionType{};
+	const Player playerTest;
+	Player player;
+
+
+	potionType = STRENGTH;
+	player = applyEffect(potionType, playerTest);
+	std::cout << player.health << "\n" << player.speed << "\n" << player.strength << "\n" << player.magic;
+
+}
