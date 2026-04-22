@@ -4,7 +4,7 @@
 #include <cassert>
 
 
-int StatisticsShoot(int hitCount, int shotCount)
+int Shoot(int hitCount, int shotCount)
 {
 	float percentage = 0;
 
@@ -26,6 +26,17 @@ int StatisticsShoot(int hitCount, int shotCount)
 	assert(shotCount > hitCount);
 
 	return percentage;
+
+}
+int main()
+{
+	int hitCount = 10;
+	int shotCount = 103;
+
+	std::cout << Shoot(hitCount, shotCount) << "\n";
+
+
+
 
 }
 
