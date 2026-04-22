@@ -3,17 +3,3 @@
 #include <iostream>
 
 
-int Function()
-{
-
-
-
-
-
-}
-int main()
-{
-
-
-
-}

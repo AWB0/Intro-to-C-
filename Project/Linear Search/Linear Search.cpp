@@ -6,17 +6,3 @@
 
 
 
-int Function()
-{
-	
-	
-	
-
-
-}
-int main()
-{
-
-	
-
-}
