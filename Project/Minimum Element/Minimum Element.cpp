@@ -8,23 +8,23 @@ int ArrayFunction(const int intArray[], const int arraySize)
 {
 
 	int lowestNumber = 0;
-	bool firstLoop = true;
-	for (int i = 0; i < arraySize; i++) 
+
+	for (int i = 0; i < arraySize; i++)
 	{
-	
-		if (firstLoop == true)
+		//set the initial LowestNumber to the array first number of the array
+		if (i == 0)
 		{
 			lowestNumber = intArray[i];
-			firstLoop = false;
+			continue;
 		}
 		if (lowestNumber > intArray[i])
 		{
 			lowestNumber = intArray[i];
 		}
-	
-	
-	
-		
+
+
+
+
 	}
 
 	std::cout << lowestNumber;
