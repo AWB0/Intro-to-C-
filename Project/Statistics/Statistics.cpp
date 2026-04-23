@@ -6,6 +6,13 @@
 
 int StatisticShoot(int hitCount, int shotCount)
 {
+
+	//ensure the hitcount is not greater than shotcount
+	//and ensure neither hitcount nor shotcount are less than 0
+	assert(shotCount >= hitCount);
+	assert(shotCount >= 0);
+	assert(hitCount >= 0);
+
 	//initialise the percentage value to be returned later
 	float percentage = 0;
 
@@ -21,8 +28,7 @@ int StatisticShoot(int hitCount, int shotCount)
 		percentage = hitCount * 100 / shotCount;
 	}
 
-	//ensure the hitcount is not greater than shotcount
-	assert(shotCount >= hitCount);
+	
 
 	return percentage;
 

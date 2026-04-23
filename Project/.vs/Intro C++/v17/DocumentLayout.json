@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{7C4D7C1F-E210-424C-B5EE-C595C21F3AAE}|Statistics\\Statistics.vcxproj|solutionrelative:Statistics\\Statistics.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{61651FBE-755A-48E6-8E98-BDCC29352376}|Switch\\Switch.vcxproj|C:\\Users\\theaw\\OneDrive\\Documents\\GitHub\\Intro to C\u002B\u002B\\Intro to C\u002B\u002B\\Project\\Switch\\Switch.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{61651FBE-755A-48E6-8E98-BDCC29352376}|Switch\\Switch.vcxproj|solutionrelative:Switch\\Switch.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E68CB9A5-CD57-46CB-8747-BE93FDD329FB}|Linear Search\\Linear Search.vcxproj|C:\\Users\\theaw\\OneDrive\\Documents\\GitHub\\Intro to C\u002B\u002B\\Intro to C\u002B\u002B\\Project\\Linear Search\\Linear Search.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{E68CB9A5-CD57-46CB-8747-BE93FDD329FB}|Linear Search\\Linear Search.vcxproj|solutionrelative:Linear Search\\Linear Search.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -42,8 +46,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Switch.cpp",
+              "DocumentMoniker": "C:\\Users\\theaw\\OneDrive\\Documents\\GitHub\\Intro to C\u002B\u002B\\Intro to C\u002B\u002B\\Project\\Switch\\Switch.cpp",
+              "RelativeDocumentMoniker": "Switch\\Switch.cpp",
+              "ToolTip": "C:\\Users\\theaw\\OneDrive\\Documents\\GitHub\\Intro to C\u002B\u002B\\Intro to C\u002B\u002B\\Project\\Switch\\Switch.cpp",
+              "RelativeToolTip": "Switch\\Switch.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-04-23T18:46:50.369Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -52,14 +69,14 @@
               "RelativeDocumentMoniker": "Statistics\\Statistics.cpp",
               "ToolTip": "C:\\Users\\theaw\\OneDrive\\Documents\\GitHub\\Intro to C\u002B\u002B\\Intro to C\u002B\u002B\\Project\\Statistics\\Statistics.cpp",
               "RelativeToolTip": "Statistics\\Statistics.cpp",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-04-22T14:27:16.83Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Mob Battle.cpp",
               "DocumentMoniker": "C:\\Users\\theaw\\OneDrive\\Documents\\GitHub\\Intro to C\u002B\u002B\\Intro to C\u002B\u002B\\Project\\Mob Battle\\Mob Battle.cpp",
               "RelativeDocumentMoniker": "Mob Battle\\Mob Battle.cpp",
@@ -71,7 +88,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Minimum Element.cpp",
               "DocumentMoniker": "C:\\Users\\theaw\\OneDrive\\Documents\\GitHub\\Intro to C\u002B\u002B\\Intro to C\u002B\u002B\\Project\\Minimum Element\\Minimum Element.cpp",
               "RelativeDocumentMoniker": "Minimum Element\\Minimum Element.cpp",
@@ -83,7 +100,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Linear Search.cpp",
               "DocumentMoniker": "C:\\Users\\theaw\\OneDrive\\Documents\\GitHub\\Intro to C\u002B\u002B\\Intro to C\u002B\u002B\\Project\\Linear Search\\Linear Search.cpp",
               "RelativeDocumentMoniker": "Linear Search\\Linear Search.cpp",
@@ -95,7 +112,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Print Array.cpp",
               "DocumentMoniker": "C:\\Users\\theaw\\OneDrive\\Documents\\GitHub\\Intro to C\u002B\u002B\\Intro to C\u002B\u002B\\Project\\Print Array\\Print Array.cpp",
               "RelativeDocumentMoniker": "Print Array\\Print Array.cpp",
@@ -107,7 +124,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Binary Search.cpp",
               "DocumentMoniker": "C:\\Users\\theaw\\OneDrive\\Documents\\GitHub\\Intro to C\u002B\u002B\\Intro to C\u002B\u002B\\Project\\Binary Search\\Binary Search.cpp",
               "RelativeDocumentMoniker": "Binary Search\\Binary Search.cpp",
@@ -119,7 +136,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Pointers.cpp",
               "DocumentMoniker": "C:\\Users\\theaw\\OneDrive\\Documents\\GitHub\\Intro to C\u002B\u002B\\Intro to C\u002B\u002B\\Project\\Pointers\\Pointers.cpp",
               "RelativeDocumentMoniker": "Pointers\\Pointers.cpp",
@@ -131,7 +148,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Bubble Sort.cpp",
               "DocumentMoniker": "C:\\Users\\theaw\\OneDrive\\Documents\\GitHub\\Intro to C\u002B\u002B\\Intro to C\u002B\u002B\\Project\\Bubble Sort\\Bubble Sort.cpp",
               "RelativeDocumentMoniker": "Bubble Sort\\Bubble Sort.cpp",
