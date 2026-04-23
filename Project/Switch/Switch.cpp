@@ -62,7 +62,7 @@ int main()
 	
 	
 	//define players
-	Player playertest;
+	const Player playertest;
 	
 	const Player player1=	ApplyEffect(HEALTH,  playertest);
 	const Player player2=	ApplyEffect(SPEED,   playertest);

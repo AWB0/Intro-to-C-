@@ -50,9 +50,9 @@
               "Title": "Switch.cpp",
               "DocumentMoniker": "C:\\Users\\theaw\\OneDrive\\Documents\\GitHub\\Intro to C\u002B\u002B\\Intro to C\u002B\u002B\\Project\\Switch\\Switch.cpp",
               "RelativeDocumentMoniker": "Switch\\Switch.cpp",
-              "ToolTip": "C:\\Users\\theaw\\OneDrive\\Documents\\GitHub\\Intro to C\u002B\u002B\\Intro to C\u002B\u002B\\Project\\Switch\\Switch.cpp*",
-              "RelativeToolTip": "Switch\\Switch.cpp*",
-              "ViewState": "AgIAADwAAAAAAAAAAAAAAEoAAABQAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\theaw\\OneDrive\\Documents\\GitHub\\Intro to C\u002B\u002B\\Intro to C\u002B\u002B\\Project\\Switch\\Switch.cpp",
+              "RelativeToolTip": "Switch\\Switch.cpp",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAADwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-04-22T14:59:16.889Z",
               "EditorCaption": ""
@@ -91,8 +91,7 @@
               "RelativeToolTip": "Linear Search\\Linear Search.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-04-20T10:12:36.922Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-20T10:12:36.922Z"
             },
             {
               "$type": "Document",
