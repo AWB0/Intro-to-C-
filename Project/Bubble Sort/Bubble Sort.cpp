@@ -14,7 +14,7 @@ void swap(int& first, int& second)
     first = second;
     second = temp;
 }
-
+//function for bubble sort, sorts an array by swapping each pair of integers
 void BubbleSort(int array[], int arraySize)
 {
 
@@ -25,12 +25,18 @@ void BubbleSort(int array[], int arraySize)
     }
     //Value to Track if List is Sorted or not
     bool sorted = false; //false to ensure the loop begins
+
+    //loop through the array,
+    // if we find the integers arent sorted then loop again until every element is sorted
     while (!sorted)
     {
         sorted = true;
 
+        //sort the array by checking if the value next to the array index is smaller than it,
+        // if so swap so the smaller value is first
         for (int i = 0; i < arraySize - 1; ++i)
         {
+            //swaps the array elements if the integer on the right is smaller
             if (array[i] > array[i + 1])
             {
                 swap(array[i], array[i + 1]);
@@ -40,6 +46,7 @@ void BubbleSort(int array[], int arraySize)
 
     }
 }
+//Function for Binary search, searching by halving a sorted array
 int BinarySearch(int array[], int arraySize, int searchValue)
 {
    int start = 0;
@@ -77,6 +84,7 @@ int BinarySearch(int array[], int arraySize, int searchValue)
 
 int main()
 {
+    //define the array we will use for sorting and searching
     const int arraySize = 20;
     int array[arraySize] = { 67,13,3,89,43,2,19,71,5,61,97,7,37,31,17,11,83,53,23,29 };
  
