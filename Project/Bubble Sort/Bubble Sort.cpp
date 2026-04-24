@@ -40,6 +40,40 @@ void BubbleSort(int array[], int arraySize)
 
     }
 }
+int BinarySearch(int array[], int arraySize, int searchValue)
+{
+   int start = 0;
+   int end = arraySize - 1;
+
+   //while the left side is currently greated or equal to the right side we check between
+    while (start <= end)
+    {
+        
+        //the middle of the array is both the left and right sides we check between divided by 2
+        int middle = (start + end) / 2;
+
+        //if the new middle of the area we check between is the value
+        if (array[middle] == searchValue)
+        {
+           
+            return middle;
+        }
+        //if the value we are searching for is higher than the middle of the search area
+        if (array[middle] < searchValue)
+        {
+            start = middle + 1;
+
+        }
+        //if the value we are searching for is lower than the middle of the search area
+        if( array[middle] > searchValue)
+        {
+            end = middle - 1;
+        }
+
+    }
+
+    return -1;
+}
 
 int main()
 {
@@ -50,13 +84,17 @@ int main()
     BubbleSort(array, arraySize);
    
    
-   
+   //test the bubble sort sorts values smallest to largest properly
         for (int i = 0; i < arraySize; i += 2)
         {
             assert(array[i] < array[i + 1]);
           
         }
-    
 
-    return 0;
+        //test the binary provides the correct values
+       assert(BinarySearch(array, arraySize, 11 ) == 4);
+       assert(BinarySearch(array, arraySize, 23) == 8);
+       assert(BinarySearch(array, arraySize, 97) == 19);
+       assert(BinarySearch(array, arraySize, 88) == -1);
+
 }
