@@ -50,8 +50,7 @@
               "RelativeToolTip": "Print Array\\Print Array.cpp",
               "ViewState": "AgIAABUAAAAAAAAAAAAAACAAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-04-20T10:12:07.626Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-20T10:12:07.626Z"
             },
             {
               "$type": "Document",
@@ -63,8 +62,7 @@
               "RelativeToolTip": "Binary Search\\Binary Search.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-04-20T10:10:22.547Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-20T10:10:22.547Z"
             },
             {
               "$type": "Document",
@@ -76,8 +74,7 @@
               "RelativeToolTip": "Pointers\\Pointers.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-04-20T10:09:19.71Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-20T10:09:19.71Z"
             },
             {
               "$type": "Document",
@@ -85,9 +82,9 @@
               "Title": "Bubble Sort.cpp",
               "DocumentMoniker": "C:\\Users\\theaw\\OneDrive\\Documents\\GitHub\\Intro to C\u002B\u002B\\Intro to C\u002B\u002B\\Project\\Bubble Sort\\Bubble Sort.cpp",
               "RelativeDocumentMoniker": "Bubble Sort\\Bubble Sort.cpp",
-              "ToolTip": "C:\\Users\\theaw\\OneDrive\\Documents\\GitHub\\Intro to C\u002B\u002B\\Intro to C\u002B\u002B\\Project\\Bubble Sort\\Bubble Sort.cpp*",
-              "RelativeToolTip": "Bubble Sort\\Bubble Sort.cpp*",
-              "ViewState": "AgIAADAAAAAAAAAAAAAAADoAAAAqAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\theaw\\OneDrive\\Documents\\GitHub\\Intro to C\u002B\u002B\\Intro to C\u002B\u002B\\Project\\Bubble Sort\\Bubble Sort.cpp",
+              "RelativeToolTip": "Bubble Sort\\Bubble Sort.cpp",
+              "ViewState": "AgIAACoAAAAAAAAAAAAswDMAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-04-20T10:07:24.795Z",
               "EditorCaption": ""
@@ -102,8 +99,7 @@
               "RelativeToolTip": "Linear Search\\Linear Search.cpp",
               "ViewState": "AgIAAAUAAAAAAAAAAAAAwA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-04-20T10:12:36.922Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-20T10:12:36.922Z"
             },
             {
               "$type": "Document",
@@ -127,8 +123,7 @@
               "RelativeToolTip": "Mob Battle\\Mob Battle.cpp",
               "ViewState": "AgIAAAIAAAAAAAAAAAAAwAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-04-20T10:18:47.498Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-20T10:18:47.498Z"
             }
           ]
         }

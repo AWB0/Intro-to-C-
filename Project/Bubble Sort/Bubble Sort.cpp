@@ -28,7 +28,7 @@ void BubbleSort(int array[], int arraySize)
     while (!sorted)
     {
         sorted = true;
-    }
+
         for (int i = 0; i < arraySize - 1; ++i)
         {
             if (array[i] > array[i + 1])
@@ -37,40 +37,24 @@ void BubbleSort(int array[], int arraySize)
                 sorted = false;
             }
         }
-    
-   
+
+    }
 }
 
 int main()
 {
-    const int arraySize = 10;
-    int array[arraySize] = { 3, 1, 4, 1, 5, 9, 2, 6, 5, 3 };
+    const int arraySize = 20;
+    int array[arraySize] = { 67,13,3,89,43,2,19,71,5,61,97,7,37,31,17,11,83,53,23,29 };
  
   //sort the array using bubblesort
     BubbleSort(array, arraySize);
    
    
-    //define array of integer pairs?
-    std::vector<std::pair<int, int>> pairs;
-    
-        for (int i = 0; i < arraySize; ++i)
+   
+        for (int i = 0; i < arraySize; i += 2)
         {
-            
-                std::cout << i << std::endl;
-                if (array[i] < array[i + 1])
-                {
-
-                    assert("Not sorted", i);
-                }
-                else {
-
-                
-            }
-           
-            
-             
-
-            
+            assert(array[i] < array[i + 1]);
+          
         }
     
 
