@@ -14,8 +14,7 @@ int LinearSearch(int intArray[], const int arraySize, int numberToFind)
 
 
 
-	//initialise integer for returning
-	int integer;
+
 
 	// loop through the array based on its size linearly
 	for (int i = 0; i < arraySize; i++) 
@@ -24,14 +23,12 @@ int LinearSearch(int intArray[], const int arraySize, int numberToFind)
 		// when value has been found
 		if (intArray[i] == numberToFind) 
 		{
-			return integer = i;
+			return i;
 		}
-		
-		
-		
+
 	}
 	
-	return 0;
+	return -1;
 	
 }
 int main()
@@ -44,5 +41,6 @@ int main()
 	assert(LinearSearch(intArray, arraySize, 3) == 2);
 	assert(LinearSearch(intArray, arraySize, 7) == 11);
 	assert(LinearSearch(intArray, arraySize, 67) == 0);
+	assert(LinearSearch(intArray, arraySize, 88) == -1);
 
 }
