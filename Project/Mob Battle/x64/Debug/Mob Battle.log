@@ -1,0 +1,15 @@
+﻿  Mob Battle.cpp
+C:\Users\theaw\OneDrive\Documents\GitHub\Intro to C++\Intro to C++\Project\Mob Battle\Mob Battle.cpp(39,15): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\theaw\OneDrive\Documents\GitHub\Intro to C++\Intro to C++\Project\Mob Battle\Mob Battle.cpp(41,9): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+C:\Users\theaw\OneDrive\Documents\GitHub\Intro to C++\Intro to C++\Project\Mob Battle\Mob Battle.cpp(54,33): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\theaw\OneDrive\Documents\GitHub\Intro to C++\Intro to C++\Project\Mob Battle\Mob Battle.cpp(54,51): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\theaw\OneDrive\Documents\GitHub\Intro to C++\Intro to C++\Project\Mob Battle\Mob Battle.cpp(60,32): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\theaw\OneDrive\Documents\GitHub\Intro to C++\Intro to C++\Project\Mob Battle\Mob Battle.cpp(60,50): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\theaw\OneDrive\Documents\GitHub\Intro to C++\Intro to C++\Project\Mob Battle\Mob Battle.cpp(65,32): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\theaw\OneDrive\Documents\GitHub\Intro to C++\Intro to C++\Project\Mob Battle\Mob Battle.cpp(65,50): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\theaw\OneDrive\Documents\GitHub\Intro to C++\Intro to C++\Project\Mob Battle\Mob Battle.cpp(70,32): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\theaw\OneDrive\Documents\GitHub\Intro to C++\Intro to C++\Project\Mob Battle\Mob Battle.cpp(70,50): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\theaw\OneDrive\Documents\GitHub\Intro to C++\Intro to C++\Project\Mob Battle\Mob Battle.cpp(75,33): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\theaw\OneDrive\Documents\GitHub\Intro to C++\Intro to C++\Project\Mob Battle\Mob Battle.cpp(75,51): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\theaw\OneDrive\Documents\GitHub\Intro to C++\Intro to C++\Project\Mob Battle\Mob Battle.cpp(129,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Mob Battle.vcxproj -> C:\Users\theaw\OneDrive\Documents\GitHub\Intro to C++\Intro to C++\Project\x64\Debug\Mob Battle.exe
