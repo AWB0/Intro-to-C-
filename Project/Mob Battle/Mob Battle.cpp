@@ -108,3 +108,17 @@ int Battle(Mob mob1, Mob mob2)
 
 	return 0;
 }
+int main()
+{
+
+	Mob delph{ "Delph",poison, 50, 10.0f };
+
+	Mob vessel = { "Vessel", stab, 100, 5.0f };
+
+	int battleLoops = 100;
+	for (int i = 0; i < battleLoops;i++)
+	{
+		Battle(delph, vessel);
+	}
+	
+}
