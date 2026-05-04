@@ -49,77 +49,62 @@ int Damage(float damage, float damageRatio)
 }
 
 
+
 float Attack(Mob attacker, Mob attacked)
 {
 	float damageValue = 0;
 
-
-	damageValue = Damage(attacker.damageRating, 1.5);
-	attacked.health -= damageValue;
-	if (attacked.health <= 0)
-	{
-				attacked.health = 0;
-	}
-	std::cout << std::endl;
-	std::cout << attacker.name << " damaged " << attacked.name << " for " << damageValue << " damage!" << std::endl;
-	return 0;
-}
-// change the name of the enemy based off it's skill
-std::string printOutcome(Mob mob1)
-{
-	switch (mob1.attackSkill)
+	switch (attacker.attackSkill)
 	{
 	case poison:
-		mob1.name = "The Poisonous " + mob1.name;
+
+		damageValue = Damage(attacker.damageRating, 1.9);
+		attacked.health -= damageValue;
+		if (attacked.health <= 0)
+		{
+			attacked.health = 0;
+		}
+		std::cout << std::endl;
+		std::cout << attacker.name << " damaged " << attacked.name << " for " << damageValue << " damage!" << std::endl;
+		return 0;
 		break;
 
 	case stab:
-
-		mob1.name = "The Stabby " + mob1.name;
+		damageValue = Damage(attacker.damageRating, 1.1);
+		attacked.health -= damageValue;
+		if (attacked.health <= 0)
+		{
+			attacked.health = 0;
+		}
+		std::cout << std::endl;
+		std::cout << attacker.name << " damaged " << attacked.name << " for " << damageValue << " damage!" << std::endl;
+		
+		
+		return 0;
 		break;
-	
+
 	}
-	return mob1.name;
+	return 0;
+
 }
+
 //the mobs fight once
 int Battle(Mob mob1, Mob mob2)
 {
-	int attackTimes = 100;
-	float damageValue = 0;
-	for (int i = 0; i < attackTimes; i++)
-	{
-
-		mob1.name = printOutcome(mob1);
-		mob2.name = printOutcome(mob2);
 	
-			
+	
 
-			damageValue = Damage(mob1.damageRating, 1.5);
-			mob1.health -= damageValue;
-			if (mob1.health <= 0)
-			{
-				mob1.health = 0;
-			}
-			std::cout << std::endl;
-			std::cout << mob1.name << " damaged " << mob2.name << " for " << damageValue << " damage!" << std::endl;
-			break;
 
-			
+	
+		
 
-		}
+		Attack(mob1, mob2);
+		Attack(mob2, mob1);
+
+	
 	
 
 	
 
 	return 0;
-}
-int main()
-{
-
-	Mob delph{ "Delph",poison, 50, 10.0f};
-
-	Mob vessel = { "Vessel", stab, 100, 5.0f};
-
-
-	Battle(delph, vessel);
 }
