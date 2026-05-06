@@ -1,19 +1,29 @@
 #pragma once
 #include <string.h>
 #include <iostream>
+#include <cassert>
 
-
-int Function()
+//swapping using pointers
+void static Pointer(int* firstValue, int* secondValue)
 {
-
-
-
-
-
+	//swap the values using pointers
+	int temp = *firstValue;
+	*firstValue = *secondValue;
+	*secondValue = temp;
 }
 int main()
 {
+	int a = 45;
+	int b = 12;
+	//get original values before they are swapped
+	int aO = a;
+	int bO = b;
 
+	Pointer(&a, &b);
+
+	//assert the values have been swapped successfully
+	assert(a == bO);
+	assert(b == aO);
 
 
 }
