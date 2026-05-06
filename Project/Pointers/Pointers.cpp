@@ -6,7 +6,7 @@
 //swapping using pointers
 void static Pointer(int* firstValue, int* secondValue)
 {
-	//define the pointer and to a 
+	//swap the values using pointers
 	int temp = *firstValue;
 	*firstValue = *secondValue;
 	*secondValue = temp;
